@@ -1,0 +1,63 @@
+#sec1 {
+  height: 100;
+  background-color: rgb(116, 161, 201);
+  display: flex;
+  justify-content: center;
+    align-items: center;
+
+ 
+ }
+ .input :focus ::placeholder{
+    color: #fff;
+ }
+
+ form input{ 
+    margin-bottom: 20px;
+ }
+
+
+#sec2 {
+  height: 100;
+  background-color: rgb(214, 158, 37);
+  display: flex;
+  justify-content: center;
+    align-items: center;
+
+}
+#sec3 {
+  height: 100;
+  background-color: rgb(136, 135, 134);
+  display: flex;
+  justify-content: center;
+    align-items: center;
+
+}
+
+ input:focus {
+    background-color: rgb(0, 0, 0);
+  }
+  
+#sec1 input :focus ::placeholder{
+    accent-color: #fff;
+}
+.name {
+  color: rgb(3, 27, 107);
+}
+
+.lastname {
+  color: green;
+}
+.email{
+    color: blueviolet;
+}
+.password{
+    color: yellow;
+}
+
+.button .submit{
+    color:#f00
+}
+button:hover {
+    color: red;
+    background-color: white;
+}
